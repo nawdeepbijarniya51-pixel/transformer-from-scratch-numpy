@@ -1,8 +1,7 @@
 <div align="center">
 
 # ⚡ Transformer From Scratch
-NpTransformerLab Live link=> 
-![NpTransformer](https://nptransformerlab.netlify.app/)
+[![NpTransformerLab Live](https://img.shields.io/badge/NpTransformerLab-Live-blue)](https://nptransformerlab.netlify.app/)
 ### A complete encoder-decoder Transformer, implemented in raw NumPy — zero deep learning frameworks.
 
 [![Made with NumPy](https://img.shields.io/badge/Built%20with-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
