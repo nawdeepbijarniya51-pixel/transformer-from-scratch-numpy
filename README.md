@@ -260,9 +260,6 @@ Every one of those questions was worked through by hand — algebraically, then 
 - 🔸 Word-level tokenization — no subword/BPE handling of unseen words
 
 ## 🗺️ Possible next steps
-
-- [ ] Top-k / temperature sampling for less repetitive generation
-- [ ] Adam optimizer (currently plain SGD)
 - [ ] Larger conversational dataset
 - [ ] Byte-pair encoding tokenizer
 
