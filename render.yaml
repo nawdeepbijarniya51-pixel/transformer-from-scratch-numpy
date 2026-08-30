@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: numpy-transformer
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: CHECKPOINT_DIR
+        value: Final_1/final
+      - key: VOCAB_PATH
+        value: json_data/vocab.json
+      - key: PAIRS_PATH
+        value: json_data/pairs.json
+    autoDeploy: true
