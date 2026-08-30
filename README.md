@@ -40,6 +40,11 @@ This repository implements the **"Attention Is All You Need"** ([Vaswani et al.,
 
 ## 🏗️ Architecture
 
+<div align="center">
+  <img src="assets/transformer-architecture.png" width="420">
+  <p><em>Figure 1: The Transformer model architecture (Vaswani et al., 2017)</em></p>
+</div>
+
 <table>
 <tr>
 <td width="50%" valign="top">
