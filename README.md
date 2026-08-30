@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⚡ Transformer From Scratch
-# NpTransformerLab => 
+NpTransformerLab Live link=> 
 [![NpTransformerLab](https://nptransformerlab.netlify.app/)]
 ### A complete encoder-decoder Transformer, implemented in raw NumPy — zero deep learning frameworks.
 
