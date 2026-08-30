@@ -1,0 +1,7 @@
+{
+  "vocab_size": 2575,
+  "embedding_dim": 32,
+  "num_heads": 4,
+  "hidden_dim": 128,
+  "num_layers": 2
+}
