@@ -144,7 +144,7 @@ $$\mathcal{L} = -\frac{1}{N}\sum_{i=1}^{N} \log P(y_i \mid x)$$
 | Cross-Attention | ✅ | ✅ | — |
 | Output Projection + Softmax | ✅ | ✅ | — |
 | Cross-Entropy Loss | ✅ | ✅ | — |
-| SGD Optimizer | ✅ | — | — |
+| Adam Optimizer | ✅ | — | — |
 
 Every ✅ under **Gradient-Checked** was verified against numerical (finite-difference) gradients before being trusted — analytical vs. numerical differences consistently landed under `1e-6`.
 
