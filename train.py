@@ -7,7 +7,7 @@ from Transformer import Transformer
 from EncodeDecode import EncodDecode
 from TextPreprocessing import TextPreprocessing
 from MultiHeadAttention import softmax
-from SGD import SGD
+from ADAM import Adam
 from LogLoss import cross_entropy_backward,cross_entropy_loss
 
 
@@ -93,7 +93,7 @@ model = Transformer(
     hidden_dim=hidden_dim,
     num_layers=num_layers
 )
-optimizer = SGD(learning_rate=learning_rate)
+optimizer = Adam(learning_rate=learning_rate)
 
 print(f"Total trainable parameters: {len(model.parameters())}")
 print("=" * 60)
