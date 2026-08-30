@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+transformer/
+venv/
+env/
+.venv/
+
+# --- Generated data / artifacts ---
+json_data/vocab.json
+json_data/id_to_token.json
+json_data/encoded_pairs.json
+
+# --- Model checkpoints (keep pretrained/ if you decide to commit a demo checkpoint) ---
+checkpoints/
+!checkpoints/pretrained/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
