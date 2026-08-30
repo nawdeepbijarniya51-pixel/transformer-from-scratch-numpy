@@ -4,7 +4,7 @@
 // forward/backward passes. Nothing on this page is simulated.
 // ============================================================
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://transformer-from-scratch-numpy.onrender.com";
 
 function $(id) { return document.getElementById(id); }
 
